@@ -1,17 +1,26 @@
-# E-Commerce & Plain PHP
+# E-Commerce in Plain PHP
 
-## Omnipay
+## Setup
+
+```
+git clone https://github.com/Ruslan-Aliyev/ECommerce-Plain-PHP.git
+cd ECommerce-Plain-PHP
+composer install
+```
+Visit `localhost//ECommerce-Plain-PHP/`
+
+## Notes
+
+### Omnipay
 
 `composer require league/omnipay omnipay/paypal omnipay/stripe`
 
-See `index.php` here.
+See https://github.com/Ruslan-Aliyev/ECommerce-Plain-PHP/blob/master/index.php
 
-https://developer.paypal.com/developer/applications/  
-(after https://developer.paypal.com/developer/accounts/)
+- Paypal developer dashboard: https://developer.paypal.com/developer/accounts/ then https://developer.paypal.com/developer/applications/  
+- Stripe developer dashboard: https://dashboard.stripe.com/
 
-https://dashboard.stripe.com/
-
-## Tutorials
+### Tutorials
 
 - Stripe
 	- Plain PHP
@@ -26,17 +35,24 @@ https://dashboard.stripe.com/
 	- Laravel
 		- https://www.youtube.com/watch?v=_7YBIRQfSN0
 		- https://sujipthapa.co/blog/a-guide-to-integrate-omnipay-paypal-with-laravel
-	- WP
+	- WP-WooCommerce
 		- https://github.com/atabegruslan/WP_WooCommerce
+	- Laravel Bagisto
+		- https://github.com/atabegruslan/Others/blob/master/Illustrations/bagisto.md
 	- Magento 2
 		- https://github.com/atabegruslan/Magento
 
-## Database design
+### Database design
 
 - https://moqups.com/templates/diagrams-flowcharts/erd/ecommerce-database-diagram/
 - https://creately.com/diagram/example/he7cxejx1/e-Commerce%20Database
+- https://github.com/woocommerce/woocommerce/wiki/Database-Description
 
-## Plugins
+Typical:
+
+![](/Illustrations/typical_ec_er.png)
+
+### Plugins
 
 - https://github.com/srmklive/laravel-paypal
 - https://laravel-vuejs.com/paystack-payment-gateway-plugin/
