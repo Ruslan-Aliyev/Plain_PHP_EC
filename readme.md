@@ -35,18 +35,20 @@ See https://github.com/Ruslan-Aliyev/ECommerce-Plain-PHP/blob/master/index.php
 	- Laravel
 		- https://www.youtube.com/watch?v=_7YBIRQfSN0
 		- https://sujipthapa.co/blog/a-guide-to-integrate-omnipay-paypal-with-laravel
-	- WP-WooCommerce
-		- https://github.com/atabegruslan/WP_WooCommerce
-	- Laravel Bagisto
-		- https://github.com/atabegruslan/Others/blob/master/Illustrations/bagisto.md
-	- Magento 2
-		- https://github.com/atabegruslan/Magento
+- WP-WooCommerce
+	- https://github.com/atabegruslan/WP_WooCommerce
+- Laravel Bagisto
+	- https://github.com/atabegruslan/Others/blob/master/Illustrations/bagisto.md
+- Magento 2
+	- https://github.com/atabegruslan/Magento
 
 ### Database design
 
 - https://moqups.com/templates/diagrams-flowcharts/erd/ecommerce-database-diagram/
 - https://creately.com/diagram/example/he7cxejx1/e-Commerce%20Database
-- https://github.com/woocommerce/woocommerce/wiki/Database-Description
+- WP WooCommerce DB: https://github.com/woocommerce/woocommerce/wiki/Database-Description
+- Bagisto DB: https://github.com/Ruslan-Aliyev/ECommerce-Plain-PHP/blob/master/Illustrations/bagisto.mwb
+- A Joomla EC extension DB: https://github.com/Ruslan-Aliyev/ECommerce-Plain-PHP/blob/master/Illustrations/ec.mwb
 
 Typical:
 
